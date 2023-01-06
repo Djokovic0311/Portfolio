@@ -12,8 +12,10 @@ import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
-} from "react-icons/ai";
+  AiOutlineLike,
 
+} from "react-icons/ai";
+import LikesButton from "./LikesButton";
 import {
   SiGooglescholar,
 } from "react-icons/si";
@@ -115,14 +117,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
             {/* <Nav.Item className="fork-btn">
-              // <Button
-                href="https://github.com/soumyajit4419/Portfolio"
-                target="_blank"
-                className="fork-btn-inner"
-              >
-                <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
-                <AiFillStar style={{ fontSize: "1.1em" }} />
-              </Button>
+              <LikesButton/>
             </Nav.Item> */}
           </Nav>
         </Navbar.Collapse>
