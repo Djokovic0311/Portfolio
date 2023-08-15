@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/self.jpg";
+import myImg from "../../Assets/self.JPG";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -20,8 +20,11 @@ function Home2() {
               A Brief  <span className="blue"> SELF-INTRODUCTION </span> 
             </h1>
             <p className="home-about-body">
-              Previously, I am a Machine Learning guy. My research interests include Natural Language processing, Data Mining and Muti-modal tasks.
+              Previously, I worked on Machine Learning. My research interests include Natural Language processing, Data Mining and Muti-modal tasks.
               Now, I expand my area of knowledge to software development. 
+              <br/>
+              <br />
+              I am looking for <b className="blue">full-time software engineer positions in the US and Canada. </b> Any help will be highly appreciated!
               <br />
               <br />I am fluent in classics like
               <i>
@@ -31,11 +34,12 @@ function Home2() {
               <br />
               I am eager to build new &nbsp;
               <i>
-                <b className="blue">Web Technologies and Products </b> and
+                <b className="blue"> Web Technologies and Products </b> and
                 also in areas related to{" "}
                 <b className="blue">
-                  Data Mining and Natural Launguage Processing.
+                  Data Mining and Natural Launguage Processing. 
                 </b>
+                I'd like join in some interesting <b className="blue">open source projects</b>!
               </i>
               <br />
               <br />
@@ -53,6 +57,7 @@ function Home2() {
               <br/>
               <br />
               I am always open-minded. If you are interested in researching or developing together with me, please DM me.
+
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -100,12 +105,6 @@ function Home2() {
               </li>
               <li className="social-icons">
               
-              {/* <AiOutlineMail className = "icon-colour home-social-icons" 
-                                target="_blank"
-                                rel="noreferrer"
-              onClick={() => window.open("mailto:jiahangli0311@gmail.com")}>
-              
-              </AiOutlineMail> */}
                 <a
                   target="_blank"
                   rel="noreferrer"

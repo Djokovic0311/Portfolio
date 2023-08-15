@@ -3,10 +3,11 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import AAAI from "../../Assets/Projects/AAAI.png";
+import Streaming from "../../Assets/Projects/stream_processing_system.png";
 import fans from "../../Assets/Projects/fans.jpg";
 import WSDM from "../../Assets/Projects/WSDM.png";
-import bank from "../../Assets/Projects/bank.jfif";
-import NEMU from "../../Assets/Projects/NEMU.jpg";
+import APP from "../../Assets/Projects/APP.jpg";
+import GSoC from "../../Assets/Projects/GSoC.png";
 
 function Projects() {
   return (
@@ -24,36 +25,36 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bank}
+              imgPath={GSoC}
               isPaper={false}
-              title="Banker Dream"
-              description="Bank system for bankers and customers with OOP design pattern. Front-end with Swing, and database supported by MySQL. 
-              The system allows banker to view bank businesses as well as customers to make transactions."
-              ghLink="https://github.com/Djokovic0311/Final-Project-ATM"
-              demoLink="https://youtu.be/2_WRzGyIkRw"
+              title="Google Summer of Code 2023"
+              description="Enhance the functionality of cBioPortal by adding support for the analysis and visualization of categorical and binary data in Generic Assay format. This will allow users to perform Fisher's exact test for binary data and chi-square test for categorical data, and to view the results in a clear and easy-to-understand format."
+              ghLink="https://github.com/Djokovic0311/google-summer-of-code-2023.git"
+              demoLink="https://docs.google.com/presentation/d/1YxDsMfbIC53fxJ2rYBPFg5zUkeKINLUpEVk7Tf9N9lU/edit?usp=sharing"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={fans}
+              imgPath={APP}
               isPaper={false}
-              title="Crazy Fans"
-              description="J2EE lightweight framework + jQuery + MySQL + jsp + servlet to complete the fan base management system based on the local server, simulating the function of microblog super chat, and managing the fan group hierarchically"
-              ghLink="https://github.com/Djokovic0311/fans_manage"
+              title="BU On the Go"
+              description="We've launched a unified mobile app for our campus named bu on the go. This app encompasses a wide range of features including: 
+              Detailed Scheduling, Task Ranking, Interactive Campus Maps, Classroom Interaction Tools, Study Group Coordination, and Chat Room capabilities."
+              ghLink="https://github.com/Djokovic0311/bu-on-the-go"
               demoLink=""
             />
           </Col>
           
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={NEMU}
+              imgPath={Streaming}
               isPaper={false}
-              title="NEMU"
-              description="A simple but complete full-system emulator for teaching purpose. The main features of NEMU include a small monitor with a simple debugger,
-              CPU core with support of most common used instructions, memory, paging and interrupt and exception."
-              ghLink="https://github.com/Djokovic0311/NJU_ICS-FDUversion"
-              demoLink=""
+              title="A Stream Processing System with State Disaggregation"
+              description="We constructed a standalone control plane, which emphasized the separation of tasks and states. This led to an optimized state migration mechanism within Flink. To achieve this, we employed Java and gRPC, resulting in the development of a distributed event-driven framework. 
+              Within this framework, the TaskManager is responsible for managing operators. The evaluations showed no system downtime during state migration, with only a 30% increase in latency."
+              ghLink="https://github.com/Djokovic0311/Disaggregated-Streaming-System.git"
+              demoLink="https://drive.google.com/file/d/1fG5Yl8mC4CsBSiW3WLtGBl965jnyThJr/view"
             />
           </Col>
 
@@ -67,7 +68,7 @@ function Projects() {
               To tackle this problem, in this paper, we propose a novel competition-based method AdvSRE. Specifically, we set up a challenging minimax game on unlabeled data between two modules, Generator and Discriminator, and assign them with conflicting objectives.
               
               Experiment results on two benchmarks show new state-of-the-art performance over baselines, demonstrating the effectiveness of competition-based AdvSRE."
-              paperLink=""
+              paperLink="https://ojs.aaai.org/index.php/AAAI/article/view/26513"
               demoLink=""
             />
           </Col>
