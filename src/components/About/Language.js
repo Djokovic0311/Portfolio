@@ -7,10 +7,11 @@ import {
   DiJava,
   DiHtml5,
   DiCss3,
+  DiRust,
 } from "react-icons/di";
 import {
   SiMysql,
-
+  SiTypescript,
 } from "react-icons/si";
 
 function Language() {
@@ -35,7 +36,13 @@ function Language() {
         <DiCss3 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <DiRust />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <SiMysql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTypescript />
       </Col>
     </Row>
   );
